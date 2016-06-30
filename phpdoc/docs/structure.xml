@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project title="API Documentation" version="2.8.5">
+  <partials/>
+  <file path="rock-bands.php" generated-path="rock-bands.html" hash="dbff0a69e85f9c4aa652d60c4415cd0e" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <function namespace="" line="62" package="Default">
+      <name>MembersNumber</name>
+      <full_name>\MembersNumber()</full_name>
+      <docblock line="62">
+        <description>функция, которая сортирует этот массив по кол-ву участников (band-&gt;members).</description>
+        <long-description></long-description>
+        <tag name="package" line="62" description="Default"/>
+        <tag name="param" line="62" description="" type="" variable="$array"/>
+        <tag name="return" line="62" description="" type="mixed">
+          <type>mixed</type>
+        </tag>
+        <tag name="author" line="62" description="Vladimir"/>
+        <tag name="source" line="62" description=""/>
+      </docblock>
+      <argument line="0" by_reference="false">
+        <name>$array</name>
+        <default></default>
+        <type/>
+      </argument>
+    </function>
+    <function namespace="" line="81" package="Default">
+      <name>GenreInBands</name>
+      <full_name>\GenreInBands()</full_name>
+      <docblock line="81">
+        <description>функция, которая сортирует этот массив по количеству жанров в группе (band-&gt;genres).</description>
+        <long-description></long-description>
+        <tag name="package" line="81" description="Default"/>
+        <tag name="param" line="81" description="" type="" variable="$array"/>
+        <tag name="return" line="81" description="" type="mixed">
+          <type>mixed</type>
+        </tag>
+      </docblock>
+      <argument line="0" by_reference="false">
+        <name>$array</name>
+        <default></default>
+        <type/>
+      </argument>
+    </function>
+    <function namespace="" line="95" package="Default">
+      <name>Members4andLess</name>
+      <full_name>\Members4andLess()</full_name>
+      <docblock line="95">
+        <description>функция, которая фильтрует этот массив, и оставляет только группы с 4 и менее участников.</description>
+        <long-description></long-description>
+        <tag name="package" line="95" description="Default"/>
+        <tag name="param" line="95" description="" type="" variable="$array"/>
+        <tag name="return" line="95" description="" type="array">
+          <type>array</type>
+        </tag>
+      </docblock>
+      <argument line="0" by_reference="false">
+        <name>$array</name>
+        <default></default>
+        <type/>
+      </argument>
+    </function>
+    <function namespace="" line="110" package="Default">
+      <name>CountGenreInBands</name>
+      <full_name>\CountGenreInBands()</full_name>
+      <docblock line="110">
+        <description>функция, которая проходится по массиву, подсчитывает количество жанров каждой группы, и записывает в группу как свойство genresTotal.</description>
+        <long-description></long-description>
+        <tag name="package" line="110" description="Default"/>
+        <tag name="param" line="110" description="" type="" variable="$array"/>
+        <tag name="return" line="110" description="" type="array">
+          <type>array</type>
+        </tag>
+      </docblock>
+      <argument line="0" by_reference="false">
+        <name>$array</name>
+        <default></default>
+        <type/>
+      </argument>
+    </function>
+    <function namespace="" line="126" package="Default">
+      <name>CountGenreInBandsAndGroup</name>
+      <full_name>\CountGenreInBandsAndGroup()</full_name>
+      <docblock line="126">
+        <description>функция, которая выбирает весь список жанров, и для каждого жанра подсчитывает количество групп, которые его играют.</description>
+        <long-description></long-description>
+        <tag name="package" line="126" description="Default"/>
+        <tag name="param" line="126" description="" type="" variable="$array"/>
+        <tag name="return" line="126" description="" type="array">
+          <type>array</type>
+        </tag>
+      </docblock>
+      <argument line="0" by_reference="false">
+        <name>$array</name>
+        <default></default>
+        <type/>
+      </argument>
+    </function>
+    <function namespace="" line="149" package="Default">
+      <name>lastTask</name>
+      <full_name>\lastTask()</full_name>
+      <docblock line="149">
+        <description>функция, которая выбирает весь список жанров, и для каждого жанра находит самую старую группу, что его играет (год брать с band-&gt;formed), и кол-во групп, что его играет.</description>
+        <long-description></long-description>
+        <tag name="package" line="149" description="Default"/>
+        <tag name="param" line="149" description="" type="" variable="$array"/>
+        <tag name="return" line="149" description="" type="array">
+          <type>array</type>
+        </tag>
+      </docblock>
+      <argument line="0" by_reference="false">
+        <name>$array</name>
+        <default></default>
+        <type/>
+      </argument>
+    </function>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+    </parse_markers>
+    <source>eJzNV+tO3EYU/u+nmEor2UuXoLa0/bGBJI0QikSoREn/rJBl2CG48WU1tgNRtFJYaPkRSh6h6htsNpBuueUVxm/Uc87Yu2PHy6WoUrks9sz5vjme7ztnzP0Hna2OwYUIhS14JxSxGzy3FuxHS0v1pmHMTE0ZbIrJP+SlPJan8iw9Sg9kX56kvfQw3U3fsXQfbofyjO34HoX+CZNvYKQvz+DzL9lPf5NDCIR5JgfMEcJ5BYEzhrvJrE3X4zbfcaM4ssx1J2hH9yDOrNfZa4PVAr5tI2yORa7f8Thc217otG2EFeKbEP1LFAYQin9sHmyEbW7lDDRPK+cBba4C8KaxuvJsAUK6jHsRh5Uhodgyp9UXkneN0Vaw2IlesK/pCYyOcIPYFtZT7q9zES0n+MdSK9W1/VOgb4qgRR4I/iT4AZ9iImYWL2kOHzrmonLhWeBY4tFkmm+LsMdhEsQ3Wv+7a4CPgvaiCJPORILviwSeE8WrMK7H54B0P92TF/JUGabBwG+XaQ9+34CJwGm7eAkDQ/jcQwuy9Hea7zF5DiG7EDEEi8lP8pLA8mxaDtI9lu6haWG+B/RDmhkwC+0zPe+rHazfwwwedhzh+JlVaEDwOBEB890d3qYBJ4m3QsF+9py267uCxqIwERucHnQzCTZiF4xYaQl0NT2sjoLr19kN6+LtDJhVpQVuba2BdzdDwZ2NrYymZeLWm2vMiVjtBQdPz1PKdWDPkS2cWAM8TrTMLBsTyWANZSg/8WI3gpK3MlCD/fTjyqq9/OzpwsqTxw1WXA6lYtl+FGeoQP47ESH2ACJRPlRTfoTecgF8qCL+fCCqT/B9kqv6HC16U1E11XRrM121Gu6TTbT/RpQxuiQMLQi6ZFcTBRoTVMhyd1X2sYVDR+9drQoAhwxGUYq+HADknQruoU7pIdJqeqRvQW82S6BzeQIJnIBEVdV4tVDjM6NcXuXGR1LBhsKZoWvEqkR66XgJXwq3CcTwNBoNaQXD7s+xWRWimFskXh4Ja6Be3bEGGHOLrYddAienv9IBOwQBdmkQ91Hb+HSvQYPyGEYOKO4t7D8dxBVVguhClZzCzUdY4FL+XdBHCQqHNNwOAauR6oWFVYcUp1i/A2QZraMqbTWMHe/WIn52mrCyjqVaq9RxA1ncmPtKpVqU+KqqWuZDJ46Fu57EqsS0XE1UkZDWmKCiHLG6WHXENeQ3zYMWwCgCjVZqlk1VeAu5zlQDUPI99tiRmmSNQ9SPlAYNTwseUU44xpLW7fJBt1L/th4cGUjPEFAnDDoBUQ8xBnI+Snt3t0/+MlK2USzCzEhXOwn3PcpcpKQjOVAXmqpu19A6LDeyic7ScfWsbYyX1ElVCxJZTJZm3lxEkwbxdYCNXktLURrZuAvVfCfeWt3iPkSoQ4QCbOpXkZWdK07HMqNYxKEXbnNhNjLeun6W5ET/D99dAP+oRyJbX57DQXLE1FmEPoMbvWM1WHqAqZWtRnlZOCSPmXxPmfcoQ6beHUAun7frKrH8LbLk5snUt3Zx/kY8Mq2BplUt4ibtT+t8mP9iDqxN6GjN7LD7YuzZMS63bJGKcigMKgdesQI6d5y1xla0PSaiPAlvRfk/gjjfyLcgz0gd0GqshRGw3ivuCNiF+TyTUptVQkIPzxhYNXzuGnizEhx6bR7F9roSYsSx7Pg8h3SNChz906qKUuGumv6SfdUst4A7PcXtH+Ka9LP8PnsLUijsHQ/mjX8A1qbBXA==</source>
+  </file>
+  <package name="Default" full_name="Default"/>
+  <package name="global" full_name="global"/>
+  <namespace name="global" full_name="global"/>
+  <deprecated count="0"/>
+</project>

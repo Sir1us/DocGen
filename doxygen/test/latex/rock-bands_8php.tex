@@ -1,0 +1,154 @@
+\hypertarget{rock-bands_8php}{}\section{Файл rock-\/bands.php}
+\label{rock-bands_8php}\index{rock-\/bands.\+php@{rock-\/bands.\+php}}
+\subsection*{Функции}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{rock-bands_8php_ae52648c9edc1aae7a0103187546321c7}{Members\+Number} (\$array)
+\item 
+\hyperlink{rock-bands_8php_a4a6b5c4e2fd02af13f4d0dfa183602a8}{Genre\+In\+Bands} (\$array)
+\item 
+\hyperlink{rock-bands_8php_a9ce4debc40987332158ad7f251ff8df3}{Members4and\+Less} (\$array)
+\item 
+\hyperlink{rock-bands_8php_a930fd6d203dd37756a65abc1e6c641b7}{Count\+Genre\+In\+Bands} (\$array)
+\item 
+\hyperlink{rock-bands_8php_ab3b5bf660a96035ba6c4fd14a972f0c7}{Count\+Genre\+In\+Bands\+And\+Group} (\$array)
+\item 
+\hyperlink{rock-bands_8php_a8a464fd50d3ff31fafbde1dfe83ec9c5}{last\+Task} (\$array)
+\end{DoxyCompactItemize}
+\subsection*{Переменные}
+\begin{DoxyCompactItemize}
+\item 
+if(file\+\_\+exists(\textquotesingle{}bands.\+xml\textquotesingle{})) \hyperlink{rock-bands_8php_a10fc9dda0e4ffe9e7c1e5204da454f07}{else}
+\end{DoxyCompactItemize}
+
+
+\subsection{Функции}
+\index{rock-\/bands.\+php@{rock-\/bands.\+php}!Count\+Genre\+In\+Bands@{Count\+Genre\+In\+Bands}}
+\index{Count\+Genre\+In\+Bands@{Count\+Genre\+In\+Bands}!rock-\/bands.\+php@{rock-\/bands.\+php}}
+\subsubsection[{\texorpdfstring{Count\+Genre\+In\+Bands(\$array)}{CountGenreInBands($array)}}]{\setlength{\rightskip}{0pt plus 5cm}Count\+Genre\+In\+Bands (
+\begin{DoxyParamCaption}
+\item[{}]{\$array}
+\end{DoxyParamCaption}
+)}\hypertarget{rock-bands_8php_a930fd6d203dd37756a65abc1e6c641b7}{}\label{rock-bands_8php_a930fd6d203dd37756a65abc1e6c641b7}
+функция, которая проходится по массиву, подсчитывает количество жанров каждой группы, и записывает в группу как свойство genres\+Total. 
+\begin{DoxyParams}{Аргументы}
+{\em \$array} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+array 
+\end{DoxyReturn}
+
+
+См. определение в файле rock-\/bands.\+php строка 104
+
+\index{rock-\/bands.\+php@{rock-\/bands.\+php}!Count\+Genre\+In\+Bands\+And\+Group@{Count\+Genre\+In\+Bands\+And\+Group}}
+\index{Count\+Genre\+In\+Bands\+And\+Group@{Count\+Genre\+In\+Bands\+And\+Group}!rock-\/bands.\+php@{rock-\/bands.\+php}}
+\subsubsection[{\texorpdfstring{Count\+Genre\+In\+Bands\+And\+Group(\$array)}{CountGenreInBandsAndGroup($array)}}]{\setlength{\rightskip}{0pt plus 5cm}Count\+Genre\+In\+Bands\+And\+Group (
+\begin{DoxyParamCaption}
+\item[{}]{\$array}
+\end{DoxyParamCaption}
+)}\hypertarget{rock-bands_8php_ab3b5bf660a96035ba6c4fd14a972f0c7}{}\label{rock-bands_8php_ab3b5bf660a96035ba6c4fd14a972f0c7}
+функция, которая выбирает весь список жанров, и для каждого жанра подсчитывает количество групп, которые его играют. 
+\begin{DoxyParams}{Аргументы}
+{\em \$array} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+array 
+\end{DoxyReturn}
+
+
+См. определение в файле rock-\/bands.\+php строка 120
+
+\index{rock-\/bands.\+php@{rock-\/bands.\+php}!Genre\+In\+Bands@{Genre\+In\+Bands}}
+\index{Genre\+In\+Bands@{Genre\+In\+Bands}!rock-\/bands.\+php@{rock-\/bands.\+php}}
+\subsubsection[{\texorpdfstring{Genre\+In\+Bands(\$array)}{GenreInBands($array)}}]{\setlength{\rightskip}{0pt plus 5cm}Genre\+In\+Bands (
+\begin{DoxyParamCaption}
+\item[{}]{\$array}
+\end{DoxyParamCaption}
+)}\hypertarget{rock-bands_8php_a4a6b5c4e2fd02af13f4d0dfa183602a8}{}\label{rock-bands_8php_a4a6b5c4e2fd02af13f4d0dfa183602a8}
+функция, которая сортирует этот массив по количеству жанров в группе (band-\/$>$genres). 
+\begin{DoxyParams}{Аргументы}
+{\em \$array} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+mixed 
+\end{DoxyReturn}
+
+
+См. определение в файле rock-\/bands.\+php строка 75
+
+\index{rock-\/bands.\+php@{rock-\/bands.\+php}!last\+Task@{last\+Task}}
+\index{last\+Task@{last\+Task}!rock-\/bands.\+php@{rock-\/bands.\+php}}
+\subsubsection[{\texorpdfstring{last\+Task(\$array)}{lastTask($array)}}]{\setlength{\rightskip}{0pt plus 5cm}last\+Task (
+\begin{DoxyParamCaption}
+\item[{}]{\$array}
+\end{DoxyParamCaption}
+)}\hypertarget{rock-bands_8php_a8a464fd50d3ff31fafbde1dfe83ec9c5}{}\label{rock-bands_8php_a8a464fd50d3ff31fafbde1dfe83ec9c5}
+функция, которая выбирает весь список жанров, и для каждого жанра находит самую старую группу, что его играет (год брать с band-\/$>$formed), и кол-\/во групп, что его играет. 
+\begin{DoxyParams}{Аргументы}
+{\em \$array} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+array 
+\end{DoxyReturn}
+
+
+См. определение в файле rock-\/bands.\+php строка 143
+
+\index{rock-\/bands.\+php@{rock-\/bands.\+php}!Members4and\+Less@{Members4and\+Less}}
+\index{Members4and\+Less@{Members4and\+Less}!rock-\/bands.\+php@{rock-\/bands.\+php}}
+\subsubsection[{\texorpdfstring{Members4and\+Less(\$array)}{Members4andLess($array)}}]{\setlength{\rightskip}{0pt plus 5cm}Members4and\+Less (
+\begin{DoxyParamCaption}
+\item[{}]{\$array}
+\end{DoxyParamCaption}
+)}\hypertarget{rock-bands_8php_a9ce4debc40987332158ad7f251ff8df3}{}\label{rock-bands_8php_a9ce4debc40987332158ad7f251ff8df3}
+функция, которая фильтрует этот массив, и оставляет только группы с 4 и менее участников. 
+\begin{DoxyParams}{Аргументы}
+{\em \$array} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+array 
+\end{DoxyReturn}
+
+
+См. определение в файле rock-\/bands.\+php строка 89
+
+\index{rock-\/bands.\+php@{rock-\/bands.\+php}!Members\+Number@{Members\+Number}}
+\index{Members\+Number@{Members\+Number}!rock-\/bands.\+php@{rock-\/bands.\+php}}
+\subsubsection[{\texorpdfstring{Members\+Number(\$array)}{MembersNumber($array)}}]{\setlength{\rightskip}{0pt plus 5cm}Members\+Number (
+\begin{DoxyParamCaption}
+\item[{}]{\$array}
+\end{DoxyParamCaption}
+)}\hypertarget{rock-bands_8php_ae52648c9edc1aae7a0103187546321c7}{}\label{rock-bands_8php_ae52648c9edc1aae7a0103187546321c7}
+функция, которая сортирует этот массив по кол-\/ву участников (band-\/$>$members). 
+\begin{DoxyParams}{Аргументы}
+{\em \$array} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+mixed 
+\end{DoxyReturn}
+
+
+См. определение в файле rock-\/bands.\+php строка 60
+
+
+
+\subsection{Переменные}
+\index{rock-\/bands.\+php@{rock-\/bands.\+php}!else@{else}}
+\index{else@{else}!rock-\/bands.\+php@{rock-\/bands.\+php}}
+\subsubsection[{\texorpdfstring{else}{else}}]{\setlength{\rightskip}{0pt plus 5cm}if (file\+\_\+exists(\textquotesingle{}bands.\+xml\textquotesingle{})) else}\hypertarget{rock-bands_8php_a10fc9dda0e4ffe9e7c1e5204da454f07}{}\label{rock-bands_8php_a10fc9dda0e4ffe9e7c1e5204da454f07}
+{\bfseries Инициализатор}
+\begin{DoxyCode}
+\{
+exit(\textcolor{stringliteral}{'-------'})
+\end{DoxyCode}
+Подключаеться фаил xml Сериализация xml в array 
+
+См. определение в файле rock-\/bands.\+php строка 12
+
